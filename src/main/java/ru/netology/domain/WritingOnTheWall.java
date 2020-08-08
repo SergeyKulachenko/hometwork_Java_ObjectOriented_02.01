@@ -12,20 +12,20 @@ public class WritingOnTheWall {
     private int replyOwnerId;
     private int replyPostId;
     private int friendsOnly;
-    private int comments;
+    private Object comments;
     private String copyright;
-    private boolean likes;
-    private int reposts;
-    private int views;
+    private Object likes;
+    private Object reposts;
+    private Object views;
     private String postType;
-    private String postSource;
-    private String geo;
+    private Object postSource;
+    private Object geo;
     private int signerId;
-    private boolean canPin;
-    private boolean canDelete;
-    private boolean canEdit;
-    private boolean isPinned;
-    private boolean markedAsAds;
+    private int canPin;
+    private int canDelete;
+    private int canEdit;
+    private int isPinned;
+    private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
 
@@ -101,11 +101,11 @@ public class WritingOnTheWall {
         this.friendsOnly = friendsOnly;
     }
 
-    public int getComments() {
+    public Object getComments() {
         return comments;
     }
 
-    public void setComments(int comments) {
+    public void setComments(Object comments) {
         this.comments = comments;
     }
 
@@ -117,27 +117,27 @@ public class WritingOnTheWall {
         this.copyright = copyright;
     }
 
-    public boolean isLikes() {
+    public Object getLikes() {
         return likes;
     }
 
-    public void setLikes(boolean likes) {
+    public void setLikes(Object likes) {
         this.likes = likes;
     }
 
-    public int getReposts() {
+    public Object getReposts() {
         return reposts;
     }
 
-    public void setReposts(int reposts) {
+    public void setReposts(Object reposts) {
         this.reposts = reposts;
     }
 
-    public int getViews() {
+    public Object getViews() {
         return views;
     }
 
-    public void setViews(int views) {
+    public void setViews(Object views) {
         this.views = views;
     }
 
@@ -149,19 +149,19 @@ public class WritingOnTheWall {
         this.postType = postType;
     }
 
-    public String getPostSource() {
+    public Object getPostSource() {
         return postSource;
     }
 
-    public void setPostSource(String postSource) {
+    public void setPostSource(Object postSource) {
         this.postSource = postSource;
     }
 
-    public String getGeo() {
+    public Object getGeo() {
         return geo;
     }
 
-    public void setGeo(String geo) {
+    public void setGeo(Object geo) {
         this.geo = geo;
     }
 
@@ -173,43 +173,43 @@ public class WritingOnTheWall {
         this.signerId = signerId;
     }
 
-    public boolean isCanPin() {
+    public int getCanPin() {
         return canPin;
     }
 
-    public void setCanPin(boolean canPin) {
+    public void setCanPin(int canPin) {
         this.canPin = canPin;
     }
 
-    public boolean isCanDelete() {
+    public int getCanDelete() {
         return canDelete;
     }
 
-    public void setCanDelete(boolean canDelete) {
+    public void setCanDelete(int canDelete) {
         this.canDelete = canDelete;
     }
 
-    public boolean isCanEdit() {
+    public int getCanEdit() {
         return canEdit;
     }
 
-    public void setCanEdit(boolean canEdit) {
+    public void setCanEdit(int canEdit) {
         this.canEdit = canEdit;
     }
 
-    public boolean isPinned() {
+    public int getIsPinned() {
         return isPinned;
     }
 
-    public void setPinned(boolean pinned) {
-        isPinned = pinned;
+    public void setIsPinned(int isPinned) {
+        this.isPinned = isPinned;
     }
 
-    public boolean isMarkedAsAds() {
+    public int getMarkedAsAds() {
         return markedAsAds;
     }
 
-    public void setMarkedAsAds(boolean markedAsAds) {
+    public void setMarkedAsAds(int markedAsAds) {
         this.markedAsAds = markedAsAds;
     }
 

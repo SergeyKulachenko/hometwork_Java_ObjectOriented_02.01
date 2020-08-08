@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class articles {
+public class Articles {
     private String id;
     private String[] imageID;
     private String[] nameURL;

@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 import javax.swing.*;
 
-public class subscribers {
+public class Subscribers {
     private String id;
     private String[] imageID;
     private String[] nameURL;

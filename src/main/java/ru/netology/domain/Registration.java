@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class registration {
+public class Registration {
     private String id;
     private String imageID;
     private String login;

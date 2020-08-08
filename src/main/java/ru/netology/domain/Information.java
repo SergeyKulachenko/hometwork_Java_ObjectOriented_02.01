@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class information {
+public class Information {
     private String id;
     private String imageID;
     private String URL;

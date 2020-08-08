@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class header {
+public class Header {
 private String id;
 private String head;
 private String imageID;
