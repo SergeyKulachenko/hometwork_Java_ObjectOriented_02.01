@@ -6,6 +6,13 @@ private String head;
 private String imageID;
 private String text;
 
+    public Header(String id, String head, String imageID, String text) {
+        this.id = id;
+        this.head = head;
+        this.imageID = imageID;
+        this.text = text;
+    }
+
     public String getId() {
         return id;
     }

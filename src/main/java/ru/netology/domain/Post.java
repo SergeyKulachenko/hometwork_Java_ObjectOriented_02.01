@@ -7,8 +7,57 @@ public class Post {
     private boolean ownersOnly;  //1 — возвращать только записи от имени владельца стены.
     private int count = 20; //количество записей, которые необходимо вернуть. по умолчанию 20, максимальное значение 100
     private int offset; //смещение, необходимо для получения определенного подмножества результатов. по умолчанию 0
-
     private int postId; //идентификатор записи на стене. положительное число
+
+    private Likes[] likes;
+
+    public Likes[] likes() {
+        // TODO: add logic
+        return null;
+    }
+
+    private Articles[] articles;
+
+    public Articles[] articles() {
+        // TODO: add logic
+        return null;
+    }
+
+    private Header[] headers;
+
+    public Header[] headers() {
+        // TODO: add logic
+        return null;
+    }
+
+    private Information[] information;
+
+    public Information[] information() {
+        // TODO: add logic
+        return null;
+    }
+
+    private Registration[] registrations;
+
+    public Registration[] registrations() {
+        // TODO: add logic
+        return null;
+    }
+
+    private Subscribers[] subscribers;
+
+    public Subscribers[] subscribers() {
+        // TODO: add logic
+        return null;
+    }
+
+    private WritingOnTheWall[] writingOnTheWalls;
+
+    public WritingOnTheWall[] writingOnTheWalls() {
+        // TODO: add logic
+        return null;
+    }
+
 
     public int getPostId() {
         return postId;
@@ -17,7 +66,6 @@ public class Post {
     public void setPostId(int postId) {
         this.postId = postId;
     }
-
 
     public int getOwnerId() {
         return ownerId;

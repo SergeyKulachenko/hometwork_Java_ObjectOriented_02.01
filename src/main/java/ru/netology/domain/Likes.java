@@ -6,6 +6,13 @@ public class Likes {
     private int canLike;  //[0,1] — информация о том, может ли текущий пользователь поставить отметку «Мне нравится» (1 — может, 0 — не может);
     private int canPublish;  //[0,1] — информация о том, может ли текущий пользователь сделать репост записи (1 — может, 0 — не может).
 
+    public Likes(int count, int userLikes, int canLike, int canPublish) {
+        this.count = count;
+        this.userLikes = userLikes;
+        this.canLike = canLike;
+        this.canPublish = canPublish;
+    }
+
     public int getCount() {
         return count;
     }
